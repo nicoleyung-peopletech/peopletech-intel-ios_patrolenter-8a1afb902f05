@@ -19,6 +19,11 @@
 		BB562D072761DDA400BDEBFB /* RouteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D062761DDA400BDEBFB /* RouteTableViewController.swift */; };
 		BB562D092761DFAB00BDEBFB /* RouteDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D082761DFAB00BDEBFB /* RouteDetailTableViewCell.swift */; };
 		BB562D0B2761E4EB00BDEBFB /* RouteDetailHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D0A2761E4EB00BDEBFB /* RouteDetailHeaderTableViewCell.swift */; };
+		BB562D0D2761EA4B00BDEBFB /* RouteStartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D0C2761EA4B00BDEBFB /* RouteStartTableViewController.swift */; };
+		BB562D102761ED8000BDEBFB /* RouteStartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D0F2761ED8000BDEBFB /* RouteStartTableViewCell.swift */; };
+		BBEDE7F22761FF7D0063B12C /* RouteStartCheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEDE7F12761FF7D0063B12C /* RouteStartCheckInViewController.swift */; };
+		BBEDE7F42761FFC50063B12C /* RouteStartEndPatrolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEDE7F32761FFC50063B12C /* RouteStartEndPatrolViewController.swift */; };
+		BBEDE7F6276206FE0063B12C /* RouteStartEndPatrolConfirmedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEDE7F5276206FE0063B12C /* RouteStartEndPatrolConfirmedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		BB562D062761DDA400BDEBFB /* RouteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTableViewController.swift; sourceTree = "<group>"; };
 		BB562D082761DFAB00BDEBFB /* RouteDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailTableViewCell.swift; sourceTree = "<group>"; };
 		BB562D0A2761E4EB00BDEBFB /* RouteDetailHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		BB562D0C2761EA4B00BDEBFB /* RouteStartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStartTableViewController.swift; sourceTree = "<group>"; };
+		BB562D0F2761ED8000BDEBFB /* RouteStartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStartTableViewCell.swift; sourceTree = "<group>"; };
+		BBEDE7F12761FF7D0063B12C /* RouteStartCheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStartCheckInViewController.swift; sourceTree = "<group>"; };
+		BBEDE7F32761FFC50063B12C /* RouteStartEndPatrolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStartEndPatrolViewController.swift; sourceTree = "<group>"; };
+		BBEDE7F5276206FE0063B12C /* RouteStartEndPatrolConfirmedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStartEndPatrolConfirmedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +97,11 @@
 				BB562D042761A6E800BDEBFB /* RouteDetailTableViewController.swift */,
 				BB562D0A2761E4EB00BDEBFB /* RouteDetailHeaderTableViewCell.swift */,
 				BB562D082761DFAB00BDEBFB /* RouteDetailTableViewCell.swift */,
+				BB562D0C2761EA4B00BDEBFB /* RouteStartTableViewController.swift */,
+				BB562D0F2761ED8000BDEBFB /* RouteStartTableViewCell.swift */,
+				BBEDE7F12761FF7D0063B12C /* RouteStartCheckInViewController.swift */,
+				BBEDE7F32761FFC50063B12C /* RouteStartEndPatrolViewController.swift */,
+				BBEDE7F5276206FE0063B12C /* RouteStartEndPatrolConfirmedViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -177,10 +192,15 @@
 				4E5D0900275FBCD600C06F84 /* ViewController.swift in Sources */,
 				BB562D052761A6E800BDEBFB /* RouteDetailTableViewController.swift in Sources */,
 				BB562D092761DFAB00BDEBFB /* RouteDetailTableViewCell.swift in Sources */,
+				BBEDE7F22761FF7D0063B12C /* RouteStartCheckInViewController.swift in Sources */,
+				BB562D0D2761EA4B00BDEBFB /* RouteStartTableViewController.swift in Sources */,
+				BBEDE7F6276206FE0063B12C /* RouteStartEndPatrolConfirmedViewController.swift in Sources */,
 				4E5D08FC275FBCD600C06F84 /* AppDelegate.swift in Sources */,
+				BB562D102761ED8000BDEBFB /* RouteStartTableViewCell.swift in Sources */,
 				BB562D0B2761E4EB00BDEBFB /* RouteDetailHeaderTableViewCell.swift in Sources */,
 				4E5D08FE275FBCD600C06F84 /* SceneDelegate.swift in Sources */,
 				BB562D072761DDA400BDEBFB /* RouteTableViewController.swift in Sources */,
+				BBEDE7F42761FFC50063B12C /* RouteStartEndPatrolViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
