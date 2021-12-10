@@ -1,5 +1,5 @@
 //
-//  RouteDetailTableViewCell.swift
+//  RouteStartTableViewCell.swift
 //  PatrolEnter
 //
 //  Created by Nicole on 9/12/2021.
@@ -7,9 +7,15 @@
 
 import UIKit
 
-class RouteDetailTableViewCell: UITableViewCell {
+class RouteStartTableViewCell: UITableViewCell {
 
-//    override func awakeFromNib() {
+    @IBOutlet weak var routeName: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var signedLabel: UILabel!
+    
+    
+    
+    //    override func awakeFromNib() {
 //        super.awakeFromNib()
 //        // Initialization code
 //    }
@@ -19,5 +25,7 @@ class RouteDetailTableViewCell: UITableViewCell {
 //
 //        // Configure the view for the selected state
 //    }
+    
 
+    
 }

@@ -17,13 +17,16 @@
 		BB562D02276095CB00BDEBFB /* RouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D01276095CB00BDEBFB /* RouteTableViewCell.swift */; };
 		BB562D052761A6E800BDEBFB /* RouteDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D042761A6E800BDEBFB /* RouteDetailTableViewController.swift */; };
 		BB562D072761DDA400BDEBFB /* RouteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D062761DDA400BDEBFB /* RouteTableViewController.swift */; };
-		BB562D092761DFAB00BDEBFB /* RouteDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D082761DFAB00BDEBFB /* RouteDetailTableViewCell.swift */; };
 		BB562D0B2761E4EB00BDEBFB /* RouteDetailHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D0A2761E4EB00BDEBFB /* RouteDetailHeaderTableViewCell.swift */; };
 		BB562D0D2761EA4B00BDEBFB /* RouteStartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D0C2761EA4B00BDEBFB /* RouteStartTableViewController.swift */; };
 		BB562D102761ED8000BDEBFB /* RouteStartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D0F2761ED8000BDEBFB /* RouteStartTableViewCell.swift */; };
 		BBEDE7F22761FF7D0063B12C /* RouteStartCheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEDE7F12761FF7D0063B12C /* RouteStartCheckInViewController.swift */; };
 		BBEDE7F42761FFC50063B12C /* RouteStartEndPatrolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEDE7F32761FFC50063B12C /* RouteStartEndPatrolViewController.swift */; };
 		BBEDE7F6276206FE0063B12C /* RouteStartEndPatrolConfirmedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEDE7F5276206FE0063B12C /* RouteStartEndPatrolConfirmedViewController.swift */; };
+		BBEDE7F92763000B0063B12C /* CheckPointTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEDE7F72763000B0063B12C /* CheckPointTableViewCell.swift */; };
+		BBEDE7FA2763000B0063B12C /* CheckPointTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEDE7F82763000B0063B12C /* CheckPointTableViewCell.xib */; };
+		BBEDE7FD27631CDA0063B12C /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEDE7FC27631CDA0063B12C /* RecordTableViewController.swift */; };
+		BBEDE7FF27631DCD0063B12C /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEDE7FE27631DCD0063B12C /* RecordTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,13 +42,16 @@
 		BB562D01276095CB00BDEBFB /* RouteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTableViewCell.swift; sourceTree = "<group>"; };
 		BB562D042761A6E800BDEBFB /* RouteDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailTableViewController.swift; sourceTree = "<group>"; };
 		BB562D062761DDA400BDEBFB /* RouteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTableViewController.swift; sourceTree = "<group>"; };
-		BB562D082761DFAB00BDEBFB /* RouteDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailTableViewCell.swift; sourceTree = "<group>"; };
 		BB562D0A2761E4EB00BDEBFB /* RouteDetailHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		BB562D0C2761EA4B00BDEBFB /* RouteStartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStartTableViewController.swift; sourceTree = "<group>"; };
 		BB562D0F2761ED8000BDEBFB /* RouteStartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStartTableViewCell.swift; sourceTree = "<group>"; };
 		BBEDE7F12761FF7D0063B12C /* RouteStartCheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStartCheckInViewController.swift; sourceTree = "<group>"; };
 		BBEDE7F32761FFC50063B12C /* RouteStartEndPatrolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStartEndPatrolViewController.swift; sourceTree = "<group>"; };
 		BBEDE7F5276206FE0063B12C /* RouteStartEndPatrolConfirmedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStartEndPatrolConfirmedViewController.swift; sourceTree = "<group>"; };
+		BBEDE7F72763000B0063B12C /* CheckPointTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPointTableViewCell.swift; sourceTree = "<group>"; };
+		BBEDE7F82763000B0063B12C /* CheckPointTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckPointTableViewCell.xib; sourceTree = "<group>"; };
+		BBEDE7FC27631CDA0063B12C /* RecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
+		BBEDE7FE27631DCD0063B12C /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 			children = (
 				BB562D032760BEDD00BDEBFB /* View */,
 				BB562CFE276073AE00BDEBFB /* Controller */,
+				BBEDE7FB2763032F0063B12C /* Cell */,
 				4E5D08FB275FBCD600C06F84 /* AppDelegate.swift */,
 				4E5D08FD275FBCD600C06F84 /* SceneDelegate.swift */,
 				4E5D0904275FBCD700C06F84 /* Assets.xcassets */,
@@ -92,16 +99,13 @@
 			isa = PBXGroup;
 			children = (
 				4E5D08FF275FBCD600C06F84 /* ViewController.swift */,
-				BB562D01276095CB00BDEBFB /* RouteTableViewCell.swift */,
 				BB562D062761DDA400BDEBFB /* RouteTableViewController.swift */,
 				BB562D042761A6E800BDEBFB /* RouteDetailTableViewController.swift */,
-				BB562D0A2761E4EB00BDEBFB /* RouteDetailHeaderTableViewCell.swift */,
-				BB562D082761DFAB00BDEBFB /* RouteDetailTableViewCell.swift */,
 				BB562D0C2761EA4B00BDEBFB /* RouteStartTableViewController.swift */,
-				BB562D0F2761ED8000BDEBFB /* RouteStartTableViewCell.swift */,
 				BBEDE7F12761FF7D0063B12C /* RouteStartCheckInViewController.swift */,
 				BBEDE7F32761FFC50063B12C /* RouteStartEndPatrolViewController.swift */,
 				BBEDE7F5276206FE0063B12C /* RouteStartEndPatrolConfirmedViewController.swift */,
+				BBEDE7FC27631CDA0063B12C /* RecordTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -114,6 +118,19 @@
 				4E5D0901275FBCD600C06F84 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BBEDE7FB2763032F0063B12C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BB562D01276095CB00BDEBFB /* RouteTableViewCell.swift */,
+				BB562D0A2761E4EB00BDEBFB /* RouteDetailHeaderTableViewCell.swift */,
+				BB562D0F2761ED8000BDEBFB /* RouteStartTableViewCell.swift */,
+				BBEDE7F82763000B0063B12C /* CheckPointTableViewCell.xib */,
+				BBEDE7F72763000B0063B12C /* CheckPointTableViewCell.swift */,
+				BBEDE7FE27631DCD0063B12C /* RecordTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBEDE7FA2763000B0063B12C /* CheckPointTableViewCell.xib in Resources */,
 				4E5D0910275FBDFA00C06F84 /* Login.storyboard in Resources */,
 				4E5D0908275FBCD700C06F84 /* LaunchScreen.storyboard in Resources */,
 				4E5D0905275FBCD700C06F84 /* Assets.xcassets in Resources */,
@@ -191,13 +209,15 @@
 				BB562D02276095CB00BDEBFB /* RouteTableViewCell.swift in Sources */,
 				4E5D0900275FBCD600C06F84 /* ViewController.swift in Sources */,
 				BB562D052761A6E800BDEBFB /* RouteDetailTableViewController.swift in Sources */,
-				BB562D092761DFAB00BDEBFB /* RouteDetailTableViewCell.swift in Sources */,
 				BBEDE7F22761FF7D0063B12C /* RouteStartCheckInViewController.swift in Sources */,
 				BB562D0D2761EA4B00BDEBFB /* RouteStartTableViewController.swift in Sources */,
 				BBEDE7F6276206FE0063B12C /* RouteStartEndPatrolConfirmedViewController.swift in Sources */,
+				BBEDE7F92763000B0063B12C /* CheckPointTableViewCell.swift in Sources */,
 				4E5D08FC275FBCD600C06F84 /* AppDelegate.swift in Sources */,
+				BBEDE7FF27631DCD0063B12C /* RecordTableViewCell.swift in Sources */,
 				BB562D102761ED8000BDEBFB /* RouteStartTableViewCell.swift in Sources */,
 				BB562D0B2761E4EB00BDEBFB /* RouteDetailHeaderTableViewCell.swift in Sources */,
+				BBEDE7FD27631CDA0063B12C /* RecordTableViewController.swift in Sources */,
 				4E5D08FE275FBCD600C06F84 /* SceneDelegate.swift in Sources */,
 				BB562D072761DDA400BDEBFB /* RouteTableViewController.swift in Sources */,
 				BBEDE7F42761FFC50063B12C /* RouteStartEndPatrolViewController.swift in Sources */,

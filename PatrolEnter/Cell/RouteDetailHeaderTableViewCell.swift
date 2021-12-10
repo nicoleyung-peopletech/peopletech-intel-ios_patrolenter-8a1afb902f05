@@ -24,7 +24,6 @@ class RouteDetailHeaderTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    @IBAction func startPatrolClicked(_ sender: UIButton) {
-    }
+
     
 }
