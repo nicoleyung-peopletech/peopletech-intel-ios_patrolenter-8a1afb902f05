@@ -14,6 +14,8 @@
 		4E5D0905275FBCD700C06F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D0904275FBCD700C06F84 /* Assets.xcassets */; };
 		4E5D0908275FBCD700C06F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D0906275FBCD700C06F84 /* LaunchScreen.storyboard */; };
 		4E5D0910275FBDFA00C06F84 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D090F275FBDFA00C06F84 /* Login.storyboard */; };
+		BB27A2F227651F6600B904C2 /* RecordDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB27A2F127651F6600B904C2 /* RecordDetailTableViewController.swift */; };
+		BB27A2F42765349700B904C2 /* RemarkDetailHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB27A2F32765349700B904C2 /* RemarkDetailHeaderTableViewCell.swift */; };
 		BB562D02276095CB00BDEBFB /* RouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D01276095CB00BDEBFB /* RouteTableViewCell.swift */; };
 		BB562D052761A6E800BDEBFB /* RouteDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D042761A6E800BDEBFB /* RouteDetailTableViewController.swift */; };
 		BB562D072761DDA400BDEBFB /* RouteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB562D062761DDA400BDEBFB /* RouteTableViewController.swift */; };
@@ -42,6 +44,8 @@
 		4E5D0907275FBCD700C06F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E5D0909275FBCD700C06F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E5D090F275FBDFA00C06F84 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		BB27A2F127651F6600B904C2 /* RecordDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDetailTableViewController.swift; sourceTree = "<group>"; };
+		BB27A2F32765349700B904C2 /* RemarkDetailHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemarkDetailHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		BB562D01276095CB00BDEBFB /* RouteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTableViewCell.swift; sourceTree = "<group>"; };
 		BB562D042761A6E800BDEBFB /* RouteDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailTableViewController.swift; sourceTree = "<group>"; };
 		BB562D062761DDA400BDEBFB /* RouteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTableViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 				BBEDE7F32761FFC50063B12C /* RouteStartEndPatrolViewController.swift */,
 				BBEDE7F5276206FE0063B12C /* RouteStartEndPatrolConfirmedViewController.swift */,
 				BBEDE7FC27631CDA0063B12C /* RecordTableViewController.swift */,
+				BB27A2F127651F6600B904C2 /* RecordDetailTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 				BBEDE7F82763000B0063B12C /* CheckPointTableViewCell.xib */,
 				BBEDE7F72763000B0063B12C /* CheckPointTableViewCell.swift */,
 				BBEDE7FE27631DCD0063B12C /* RecordTableViewCell.swift */,
+				BB27A2F32765349700B904C2 /* RemarkDetailHeaderTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -280,9 +286,11 @@
 				BBEDE7F22761FF7D0063B12C /* RouteStartCheckInViewController.swift in Sources */,
 				BB562D0D2761EA4B00BDEBFB /* RouteStartTableViewController.swift in Sources */,
 				BBEDE7F6276206FE0063B12C /* RouteStartEndPatrolConfirmedViewController.swift in Sources */,
+				BB27A2F42765349700B904C2 /* RemarkDetailHeaderTableViewCell.swift in Sources */,
 				BBEDE7F92763000B0063B12C /* CheckPointTableViewCell.swift in Sources */,
 				4E5D08FC275FBCD600C06F84 /* AppDelegate.swift in Sources */,
 				BBEDE7FF27631DCD0063B12C /* RecordTableViewCell.swift in Sources */,
+				BB27A2F227651F6600B904C2 /* RecordDetailTableViewController.swift in Sources */,
 				BB562D102761ED8000BDEBFB /* RouteStartTableViewCell.swift in Sources */,
 				BB562D0B2761E4EB00BDEBFB /* RouteDetailHeaderTableViewCell.swift in Sources */,
 				BBEDE7FD27631CDA0063B12C /* RecordTableViewController.swift in Sources */,

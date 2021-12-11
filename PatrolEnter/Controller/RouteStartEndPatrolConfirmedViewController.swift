@@ -9,13 +9,24 @@ import UIKit
 
 class RouteStartEndPatrolConfirmedViewController: UIViewController {
 
+    @IBOutlet weak var routeNameLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var startTimeLabel: UILabel!
+    @IBOutlet weak var endTimeLabel: UILabel!
+    @IBOutlet weak var completeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationItem.setHidesBackButton(true, animated: false)
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func backToRootPressed(_ sender: UIButton) {
+        self.navigationController?.popToRootViewController(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

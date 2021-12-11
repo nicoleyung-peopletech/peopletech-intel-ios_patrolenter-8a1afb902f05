@@ -1,16 +1,18 @@
 //
-//  RecordTableViewController.swift
+//  RecordDetailTableViewController.swift
 //  PatrolEnter
 //
-//  Created by Nicole on 10/12/2021.
+//  Created by Nicole on 12/12/2021.
 //
 
 import UIKit
 
-class RecordTableViewController: UITableViewController {
+class RecordDetailTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.register(UINib(nibName: "CheckPointTableViewCell", bundle: nil), forCellReuseIdentifier: "checkPointCell")
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -18,16 +20,18 @@ class RecordTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        self.tabBarController?.tabBar.isHidden = true
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        self.tabBarController?.tabBar.isHidden = false
-    }
 
     // MARK: - Table view data source
+    
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerCell = tableView.dequeueReusableCell(withIdentifier: "recordDetailHeaderCell") as! RemarkDetailHeaderTableViewCell
+        
+        return headerCell
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 158
+    }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -40,15 +44,19 @@ class RecordTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "recordCell", for: indexPath) as! RecordTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "checkPointCell", for: indexPath) as! CheckPointTableViewCell
+        
+        cell.selectionStyle = .none
+        cell.remarkButton.addTarget(self, action: #selector(navToRemark(sender:)), for: .touchUpInside)
 
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 97
-    }
 
+    
+    @objc func navToRemark(sender: UIButton){
+        performSegue(withIdentifier: "goToRemark", sender: self)
+    }
 
     /*
     // Override to support conditional editing of the table view.

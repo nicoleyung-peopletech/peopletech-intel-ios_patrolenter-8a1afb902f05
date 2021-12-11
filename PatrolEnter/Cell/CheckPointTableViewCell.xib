@@ -64,30 +64,40 @@
                             </stackView>
                         </subviews>
                     </stackView>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn_notes_on" translatesAutoresizingMaskIntoConstraints="NO" id="beC-1D-dpv">
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0O-NC-A1d">
                         <rect key="frame" x="283" y="29" width="49" height="49"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="49" id="5N5-Qh-eto"/>
-                            <constraint firstAttribute="width" constant="49" id="yR9-pE-IiX"/>
+                            <constraint firstAttribute="height" constant="49" id="1er-eT-Q8f"/>
+                            <constraint firstAttribute="width" constant="49" id="Hph-nz-NDf"/>
                         </constraints>
-                    </imageView>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="btn_notes_off">
+                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="cHF-II-OQH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="24x-eP-Hf7"/>
+                    <constraint firstAttribute="trailing" secondItem="M0O-NC-A1d" secondAttribute="trailing" constant="20" id="28i-fG-O8S"/>
+                    <constraint firstItem="M0O-NC-A1d" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="7XD-bq-P3F"/>
                     <constraint firstAttribute="bottom" secondItem="cHF-II-OQH" secondAttribute="bottom" constant="9" id="8Ft-cO-La3"/>
-                    <constraint firstAttribute="trailing" secondItem="beC-1D-dpv" secondAttribute="trailing" constant="20" id="G0z-Nh-hh7"/>
                     <constraint firstItem="cHF-II-OQH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="21" id="NY0-QB-xWt"/>
                     <constraint firstItem="iim-JI-A6L" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Wmh-fB-eBu"/>
                     <constraint firstItem="iim-JI-A6L" firstAttribute="leading" secondItem="cHF-II-OQH" secondAttribute="trailing" constant="14" id="eNB-65-HmG"/>
-                    <constraint firstItem="beC-1D-dpv" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="xPx-MG-ByV"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkPointLabel" destination="6b5-Xd-ksD" id="ocq-DS-k5U"/>
+                <outlet property="remarkButton" destination="M0O-NC-A1d" id="7nm-j0-p2A"/>
+                <outlet property="timeLabel" destination="Tnz-kd-62d" id="HvO-bg-gF9"/>
+            </connections>
             <point key="canvasLocation" x="160.86956521739131" y="110.82589285714285"/>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="btn_notes_on" width="49" height="49"/>
+        <image name="btn_notes_off" width="49" height="49"/>
         <image name="dot_blue" width="5" height="20"/>
         <image name="point_nextcheckin" width="27" height="27"/>
     </resources>

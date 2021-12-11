@@ -15,6 +15,9 @@ class RouteDetailTableViewController: UITableViewController {
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = UITableView.automaticDimension
         
+        tableView.register(UINib(nibName: "CheckPointTableViewCell", bundle: nil), forCellReuseIdentifier: "checkPointCell")
+        
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -26,17 +29,6 @@ class RouteDetailTableViewController: UITableViewController {
     
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 1
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
-    
-    
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerCell = tableView.dequeueReusableCell(withIdentifier: "routeDetailHeaderCell") as! RouteDetailHeaderTableViewCell
         
@@ -46,16 +38,42 @@ class RouteDetailTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 107
     }
+    
+    
+    
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 1
+    }
 
-    /*
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return 4
+    }
+
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "checkPointCell", for: indexPath) as! CheckPointTableViewCell
+        
+        cell.selectionStyle = .none
+        
 
-        // Configure the cell...
+        cell.remarkButton.addTarget(self, action: #selector(navToRemark(sender:)), for: .touchUpInside)
 
         return cell
     }
-    */
+
+    
+
+    
+    @objc func navToRemark(sender: UIButton){
+        performSegue(withIdentifier: "goToRemark", sender: self)
+    }
+    
+//    override func performSegue(withIdentifier identifier: String, sender: Any?) {
+//        <#code#>
+//    }
 
     /*
     // Override to support conditional editing of the table view.

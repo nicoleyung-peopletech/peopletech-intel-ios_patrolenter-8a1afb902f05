@@ -24,9 +24,6 @@ class RouteStartViewController: UIViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
-    
-
-    
 
 }
 
@@ -42,11 +39,6 @@ extension RouteStartViewController: UITableViewDataSource{
         return 4
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "checkPointCell") as! CheckPointTableViewCell
-        return cell
-    }
-    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
         let headerCell = tableView.dequeueReusableCell(withIdentifier: "routeStartHeaderCell") as! RouteStartTableViewCell
@@ -59,5 +51,17 @@ extension RouteStartViewController: UITableViewDataSource{
         return 107
     }
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "checkPointCell") as! CheckPointTableViewCell
+        
+        cell.selectionStyle = .none
+        cell.remarkButton.addTarget(self, action: #selector(navToRemark(sender:)), for: .touchUpInside)
+        
+        return cell
+    }
+    
+    @objc func navToRemark(sender: UIButton){
+        performSegue(withIdentifier: "goToRemark", sender: self)
+    }
     
 }

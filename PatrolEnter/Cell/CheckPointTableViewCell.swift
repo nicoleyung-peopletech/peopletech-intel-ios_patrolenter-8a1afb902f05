@@ -14,16 +14,25 @@ case NextInLine
 
 class CheckPointTableViewCell: UITableViewCell {
     
+    @IBOutlet weak var checkPointLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var remarkButton: UIButton!
+    
+    
 //    var checkpointType:CheckPointType = .AlreadyCheckIn
 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    
 
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
+        
         // Configure the view for the selected state
     }
     

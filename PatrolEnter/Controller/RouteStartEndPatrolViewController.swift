@@ -8,7 +8,16 @@
 import UIKit
 
 class RouteStartEndPatrolViewController: UIViewController {
-
+    
+    @IBOutlet weak var routeLabel: UILabel!
+    @IBOutlet weak var routeNameLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var startTimeLabel: UILabel!
+    @IBOutlet weak var endTimeLabel: UILabel!
+    
+    @IBOutlet weak var completeLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
