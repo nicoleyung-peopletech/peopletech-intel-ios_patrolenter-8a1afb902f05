@@ -27,9 +27,12 @@
 		BBEDE7FA2763000B0063B12C /* CheckPointTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEDE7F82763000B0063B12C /* CheckPointTableViewCell.xib */; };
 		BBEDE7FD27631CDA0063B12C /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEDE7FC27631CDA0063B12C /* RecordTableViewController.swift */; };
 		BBEDE7FF27631DCD0063B12C /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEDE7FE27631DCD0063B12C /* RecordTableViewCell.swift */; };
+		DD8C179A1681FC498AEF60EF /* Pods_PatrolEnter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA1C8E72ABF519B7A80A249 /* Pods_PatrolEnter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3540CE117022EC7F8065DFB2 /* Pods-PatrolEnter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrolEnter.debug.xcconfig"; path = "Target Support Files/Pods-PatrolEnter/Pods-PatrolEnter.debug.xcconfig"; sourceTree = "<group>"; };
+		3FA1C8E72ABF519B7A80A249 /* Pods_PatrolEnter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatrolEnter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5D08F8275FBCD600C06F84 /* PatrolEnter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatrolEnter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5D08FB275FBCD600C06F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E5D08FD275FBCD600C06F84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		BBEDE7F82763000B0063B12C /* CheckPointTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckPointTableViewCell.xib; sourceTree = "<group>"; };
 		BBEDE7FC27631CDA0063B12C /* RecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
 		BBEDE7FE27631DCD0063B12C /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		D48C3AC813935C897FE87407 /* Pods-PatrolEnter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrolEnter.release.xcconfig"; path = "Target Support Files/Pods-PatrolEnter/Pods-PatrolEnter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8C179A1681FC498AEF60EF /* Pods_PatrolEnter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +75,8 @@
 			children = (
 				4E5D08FA275FBCD600C06F84 /* PatrolEnter */,
 				4E5D08F9275FBCD600C06F84 /* Products */,
+				F9D5C0D648A1869F24B62E48 /* Pods */,
+				C82C5DA6FE3356468259FFC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +140,24 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		C82C5DA6FE3356468259FFC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FA1C8E72ABF519B7A80A249 /* Pods_PatrolEnter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9D5C0D648A1869F24B62E48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3540CE117022EC7F8065DFB2 /* Pods-PatrolEnter.debug.xcconfig */,
+				D48C3AC813935C897FE87407 /* Pods-PatrolEnter.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E5D090C275FBCD700C06F84 /* Build configuration list for PBXNativeTarget "PatrolEnter" */;
 			buildPhases = (
+				5399BAD08E83516BB9371986 /* [CP] Check Pods Manifest.lock */,
 				4E5D08F4275FBCD600C06F84 /* Sources */,
 				4E5D08F5275FBCD600C06F84 /* Frameworks */,
 				4E5D08F6275FBCD600C06F84 /* Resources */,
+				1215946102CB9DC5CA84EE8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +227,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1215946102CB9DC5CA84EE8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatrolEnter/Pods-PatrolEnter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatrolEnter/Pods-PatrolEnter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatrolEnter/Pods-PatrolEnter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5399BAD08E83516BB9371986 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatrolEnter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E5D08F4275FBCD600C06F84 /* Sources */ = {
@@ -364,6 +433,7 @@
 		};
 		4E5D090D275FBCD700C06F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3540CE117022EC7F8065DFB2 /* Pods-PatrolEnter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -392,6 +462,7 @@
 		};
 		4E5D090E275FBCD700C06F84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48C3AC813935C897FE87407 /* Pods-PatrolEnter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
