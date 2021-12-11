@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E5D08FC275FBCD600C06F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5D08FB275FBCD600C06F84 /* AppDelegate.swift */; };
 		4E5D08FE275FBCD600C06F84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5D08FD275FBCD600C06F84 /* SceneDelegate.swift */; };
-		4E5D0900275FBCD600C06F84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5D08FF275FBCD600C06F84 /* ViewController.swift */; };
+		4E5D0900275FBCD600C06F84 /* RemarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5D08FF275FBCD600C06F84 /* RemarkViewController.swift */; };
 		4E5D0903275FBCD600C06F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D0901275FBCD600C06F84 /* Main.storyboard */; };
 		4E5D0905275FBCD700C06F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D0904275FBCD700C06F84 /* Assets.xcassets */; };
 		4E5D0908275FBCD700C06F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5D0906275FBCD700C06F84 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 		4E5D08F8275FBCD600C06F84 /* PatrolEnter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatrolEnter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5D08FB275FBCD600C06F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E5D08FD275FBCD600C06F84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E5D08FF275FBCD600C06F84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E5D08FF275FBCD600C06F84 /* RemarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemarkViewController.swift; sourceTree = "<group>"; };
 		4E5D0902275FBCD600C06F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E5D0904275FBCD700C06F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E5D0907275FBCD700C06F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		BB562CFE276073AE00BDEBFB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4E5D08FF275FBCD600C06F84 /* ViewController.swift */,
+				4E5D08FF275FBCD600C06F84 /* RemarkViewController.swift */,
 				BB562D062761DDA400BDEBFB /* RouteTableViewController.swift */,
 				BB562D042761A6E800BDEBFB /* RouteDetailTableViewController.swift */,
 				BB562D0C2761EA4B00BDEBFB /* RouteStartTableViewController.swift */,
@@ -154,7 +154,6 @@
 				3540CE117022EC7F8065DFB2 /* Pods-PatrolEnter.debug.xcconfig */,
 				D48C3AC813935C897FE87407 /* Pods-PatrolEnter.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -276,7 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB562D02276095CB00BDEBFB /* RouteTableViewCell.swift in Sources */,
-				4E5D0900275FBCD600C06F84 /* ViewController.swift in Sources */,
+				4E5D0900275FBCD600C06F84 /* RemarkViewController.swift in Sources */,
 				BB562D052761A6E800BDEBFB /* RouteDetailTableViewController.swift in Sources */,
 				BBEDE7F22761FF7D0063B12C /* RouteStartCheckInViewController.swift in Sources */,
 				BB562D0D2761EA4B00BDEBFB /* RouteStartTableViewController.swift in Sources */,
